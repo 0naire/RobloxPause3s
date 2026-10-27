@@ -1,0 +1,37 @@
+PASS baseline TCP4 (samples=14)
+PASS baseline TCP6 (samples=14)
+PASS baseline UDP4 (samples=13)
+PASS baseline UDP6 (samples=13)
+PASS real app worker ready, isolated test executable only
+PASS real worker automatically completed
+PASS real worker clean exit
+PASS automatic duration 3017.1ms
+PASS blocked TCP4 (samples=9)
+PASS blocked TCP6 (samples=9)
+PASS blocked UDP4 (samples=8)
+PASS blocked UDP6 (samples=8)
+PASS other app unaffected TCP4 (samples=39)
+PASS other app unaffected TCP6 (samples=39)
+PASS other app unaffected UDP4 (samples=39)
+PASS other app unaffected UDP6 (samples=39)
+PASS automatic restore TCP4 (samples=7)
+PASS automatic restore TCP6 (samples=7)
+PASS automatic restore UDP4 (samples=7)
+PASS automatic restore UDP6 (samples=7)
+PASS manual restore worker ready
+PASS manual restore completed
+PASS manual restore within 1.5 seconds
+PASS manual restore TCP4 (samples=7)
+PASS manual restore TCP6 (samples=7)
+PASS manual restore UDP4 (samples=7)
+PASS manual restore UDP6 (samples=7)
+PASS crash test dynamic filters active
+PASS before crash TCP4 (samples=2)
+PASS before crash TCP6 (samples=2)
+PASS before crash UDP4 (samples=2)
+PASS before crash UDP6 (samples=2)
+PASS process crash cleanup TCP4 (samples=10)
+PASS process crash cleanup TCP6 (samples=10)
+PASS process crash cleanup UDP4 (samples=10)
+PASS process crash cleanup UDP6 (samples=10)
+PASS No running Roblox process was targeted. All traffic tests used localhost and two dedicated test executables.
