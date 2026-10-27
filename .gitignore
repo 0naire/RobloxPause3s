@@ -1,0 +1,7 @@
+hotkey.txt
+error.log
+diagnostics.txt
+tests/bin/
+*.user
+*.suo
+.vs/
